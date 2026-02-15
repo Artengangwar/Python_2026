@@ -42,3 +42,10 @@ def role_selected(language_selected):
     return language_selected
 
 
+
+@pytest.fixture
+def role_selected1(language_selected):
+    role = RolePage(language_selected)
+    role.select_role("Teacher")   # 👈 UPDATED
+    role.click_proceed()
+    return language_selected
