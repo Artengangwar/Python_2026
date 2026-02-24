@@ -13,4 +13,4 @@ def test_select_teacher_role(language_selected):
 
     # Step 3: Verify navigation to login page
     assert "login" in language_selected.url
-    #step 4
+    #step 4 it not a mandatory
