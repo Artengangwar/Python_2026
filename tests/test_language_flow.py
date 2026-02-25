@@ -13,3 +13,4 @@ def test_language_selection_and_proceed(page):
 
     # Step 3: Verify navigation to role page
     assert "role" in page.url or "usertype" in page.url
+#step
